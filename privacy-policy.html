@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Privacy Policy for PinPost — a personal Pinterest scheduling tool.">
+<title>Privacy Policy — PinPost</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+         max-width: 720px; margin: 60px auto; padding: 0 24px;
+         color: #2d3142; line-height: 1.7; font-size: 16px; }
+  .back { display: inline-flex; align-items: center; gap: 6px;
+          color: #e60023; text-decoration: none; font-size: .88rem;
+          font-weight: 600; margin-bottom: 32px; }
+  .back:hover { text-decoration: underline; }
+  h1 { font-size: 2rem; font-weight: 800; margin-bottom: 6px; }
+  h2 { font-size: 1.15rem; font-weight: 700; margin: 32px 0 8px; color: #ad081b; }
+  .disclaimer { background: #fff3cd; border-left: 4px solid #f59e0b; padding: 12px 16px;
+                border-radius: 4px; margin: 18px 0; font-size: .93rem; }
+  .updated { color: #7b80a0; font-size: .88rem; margin-bottom: 28px; }
+  a { color: #e60023; }
+  ul { padding-left: 20px; }
+  ul li { margin-bottom: 4px; }
+  hr { border: none; border-top: 1px solid #e2e5f0; margin: 36px 0; }
+  footer { color: #7b80a0; font-size: .85rem; margin-top: 48px; }
+</style>
+</head>
+<body>
+
+<a class="back" href="index.html">← Back to PinPost</a>
+
+<h1>Privacy Policy</h1>
+<p class="updated">Last updated: May 2026</p>
+
+<div class="disclaimer">
+  <strong>Non-Affiliation Disclaimer:</strong> PinPost is an independent personal tool and is
+  <strong>not affiliated with, endorsed by, or sponsored by Pinterest, Inc.</strong>
+  Pinterest&reg; is a registered trademark of Pinterest, Inc.
+</div>
+
+<h2>1. About PinPost</h2>
+<p>
+  PinPost is a personal desktop scheduling tool that uses the
+  <strong>Pinterest API</strong> to automate posting of pins to Pinterest boards
+  on your behalf at times you configure. The application runs entirely on your
+  own computer (localhost) and does not operate any public-facing servers.
+</p>
+
+<h2>2. Pinterest API Usage</h2>
+<p>
+  This application accesses the Pinterest API to:
+</p>
+<ul>
+  <li>Authenticate your Pinterest account via Pinterest's OAuth 2.0 flow</li>
+  <li>Read your Pinterest boards (to select the correct board for each pin)</li>
+  <li>Create pins on your behalf at scheduled times</li>
+</ul>
+<p>
+  This application is not endorsed by or affiliated with Pinterest, Inc. in any way.
+</p>
+
+<h2>3. Data We Collect and Store</h2>
+<p>All data is stored <strong>locally on your device only</strong>. We collect:</p>
+<ul>
+  <li><strong>OAuth access tokens and refresh tokens</strong> — stored encrypted in a local SQLite database on your computer</li>
+  <li><strong>Pinterest username</strong> — stored for display purposes only</li>
+  <li><strong>Board names and IDs</strong> — cached locally to avoid repeated API calls</li>
+  <li><strong>Pin content you provide</strong> — titles, descriptions, image paths/URLs, and destination links that you supply for scheduling</li>
+</ul>
+<p>
+  No data is transmitted to any third-party server, cloud service, or analytics platform.
+  All Pinterest API communication is between your computer and Pinterest's servers directly.
+</p>
+
+<h2>4. How Your Data Is Used</h2>
+<p>
+  Data collected is used solely to post pins to your Pinterest boards on your behalf
+  at the times you configure. It is not used for any other purpose.
+</p>
+
+<h2>5. Data Retention and Deletion</h2>
+<p>
+  When you <strong>disconnect a Pinterest account</strong> via the app's Accounts screen,
+  all OAuth tokens, board cache data, and associated pin data for that account are
+  <strong>permanently deleted</strong> from your local database immediately.
+</p>
+<p>
+  You may also request deletion of your data at any time by contacting us at the email
+  address below, or by deleting the application's database file (<code>instance/pinpost.db</code>)
+  from your computer.
+</p>
+
+<h2>6. No Reselling or Redistribution</h2>
+<p>
+  Pinterest data obtained via the Pinterest API — including tokens, board names, pin data,
+  and any other Pinterest-derived information — is <strong>not sold, resold, licensed,
+  sublicensed, or redistributed</strong> to any third party in any form, under any circumstances.
+</p>
+
+<h2>7. Data Security</h2>
+<p>
+  OAuth access tokens and refresh tokens are stored encrypted using industry-standard
+  symmetric encryption (Fernet / AES-128-CBC) in a local SQLite database. The encryption
+  key is stored only on your device.
+</p>
+
+<h2>8. Third-Party Services</h2>
+<p>
+  This application uses the <a href="https://developers.pinterest.com/" target="_blank">Pinterest API</a>,
+  which is subject to Pinterest's own
+  <a href="https://policy.pinterest.com/privacy-policy" target="_blank">Privacy Policy</a>
+  and <a href="https://developers.pinterest.com/terms/" target="_blank">Developer Terms of Service</a>.
+</p>
+
+<h2>9. Changes to This Policy</h2>
+<p>
+  We may update this privacy policy from time to time. Changes will be reflected by
+  updating the "Last updated" date at the top of this page.
+</p>
+
+<h2>10. Contact</h2>
+<p>
+  If you have any questions about this privacy policy or how your data is handled,
+  please contact us at: <a href="mailto:hobbylabel@hotmail.com">hobbylabel@hotmail.com</a>
+</p>
+
+<hr>
+<footer>
+  <a href="index.html">← Back to PinPost</a> &nbsp;|&nbsp;
+  &copy; 2026 PinPost &mdash; Not affiliated with Pinterest, Inc.
+</footer>
+
+</body>
+</html>
